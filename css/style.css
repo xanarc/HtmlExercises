@@ -1,0 +1,50 @@
+body{
+	background-color: #D9C8A9;
+}
+
+.navbar-light 
+{
+	background-color: #D9C8A9 !important;
+}
+
+
+.container-fluid {
+	background-color: #D9C8A9;
+}
+
+.jumbotron {
+	background-color: #D9695F;
+}
+.btn-primary {
+	background-color: #858C7D;
+	border: #858C7D;
+}
+
+
+.btn-outline-primary {
+	background-color: #858C7D; /*grey*/
+}
+
+.btn-primary:hover {
+	background-color: #AFD980; /*minty*/
+}
+
+.projectsH2 {
+	color: #A64138;
+}
+
+.ProjectDoor {
+	color: #A64138;
+	font-size: 1.5em;
+}
+
+.ProjectDoor:hover {
+	color: #858C7D; 
+}
+/* Color Theme Swatches in Hex 
+.Electric-cars-1-hex { color: #858C7D; } grey
+.Electric-cars-2-hex { color: #D9C8A9; } white brownish
+.Electric-cars-3-hex { color: #A64138; } redish
+.Electric-cars-4-hex { color: #D9695F; } pinkish salmon
+.Electric-cars-5-hex { color: #BF807A; } dirty pinkish purple
+*/
