@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>HTML Exercises</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="navbar-toggler-icon"></span>
+        </button> <img class=navbar-brand  src="img/coco128x128.png"><h1><a class="navbar-brand" href="xanamorrisdev.com">The coco-nut code</a></h1>
+        
+      </nav>
+      
+    </div>
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-6">
+          
+          <canvas id="myCanvas" class="myCanvas" width="400" height="400" style="border:1px solid #d3d3d3;">Your browser does not support the HTML5 canvas tag.
+          </canvas>
+          <div class="progress">
+            <div class="progress-bar w-75">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p>
+            Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+          </p>
+          <img id="puzzlePicture" alt="Puzzle Image" src="img/project1/solarsystem.png" />
+          <div class="alert alert-success alert-dismissable">
+             
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+              ×
+            </button>
+            <h4>
+              Alert!
+            </h4> <strong>Warning!</strong> Best check yo self, you're not looking too good. <a href="#" class="alert-link">alert link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  
+  window.onload = function() {
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    var img = document.getElementById("puzzlePicture");
+   ctx.drawImage(img, 10, 10);
+</script>
+        <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

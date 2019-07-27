@@ -15,6 +15,7 @@ body{
 .jumbotron {
 	background-color: #D9695F;
 }
+
 .btn-primary {
 	background-color: #858C7D;
 	border: #858C7D;
@@ -41,6 +42,12 @@ body{
 .ProjectDoor:hover {
 	color: #858C7D; 
 }
+
+.puzzlePicture {
+	height: 600px;
+	width: 600px;
+}
+
 /* Color Theme Swatches in Hex 
 .Electric-cars-1-hex { color: #858C7D; } grey
 .Electric-cars-2-hex { color: #D9C8A9; } white brownish
